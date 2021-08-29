@@ -13,16 +13,9 @@ export default function Footer() {
       <div className="container">
         <nav className="level">
           <div className="level-left has-text-light">
-            ©gurus digital portal LLC.
+            ©Gurus Digital Portal LLC.
           </div>
           <div className="level-right icon-links">
-
-
-
-
-
-
-
             <a href="https://facebook.com/gurus.ae" rel="noopener noreferrer" target="_blank"><Facebook/></a>
             <a href="https://www.instagram.com/gurus.ae" rel="noopener noreferrer" target="_blank"><Instagram/></a>
             <a href="https://www.linkedin.com/company/gurus-ae/" rel="noopener noreferrer" target="_blank"><Linkedin/></a>

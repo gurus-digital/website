@@ -23,12 +23,12 @@ export default function Header({onOpenQuote}) {
               <Link to="/" className="logo-link">
                 <Logo id="logo" />
               </Link>
-              <div
+              {/*<div
                 className={`navbar-burger burger ${open && 'is-active'}`}
                 onClick={()=>setOpen(v => !v)}
               >
                 <Menu/>
-              </div>
+              </div>*/}
             </div>
 
             <div className={`navbar-menu ${open ? 'is-active' : '' }`}>

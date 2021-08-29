@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import Header from './Header'
 import Footer from './Footer'
 import "../styles/index.scss"
-import Certification from 'components/Certification'
+
 import Contacts from 'components/Contacts'
 
 export default function Layout({ children }) {

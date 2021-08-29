@@ -33,10 +33,10 @@
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: .5rem;
-  font-size: calc(55 * 1px + (250 - 55)/ (1440 - 320) * (100vw - 320 * 1px));
+  font-size: calc(30px + 9vw);
   line-height: 1;
   font-weight: 300;
-  letter-spacing: calc(-3.5 * 1px + (-6.2 - -3.5)/ (1440 - 375) * (100vw - 375 * 1px));
+  letter-spacing: 0;
   color: #fff;
 }
 

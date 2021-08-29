@@ -10,7 +10,7 @@
   align-items: center;
 
   .navbar-brand {
-
+    justify-content: center;
     align-items: center;
 
     @include from($desktop) {margin-left: 0;}
@@ -38,18 +38,20 @@
   .navbar-menu {
     box-shadow: none;
     display: block;
-    height: 0;
+    //height: 0;
     transition: height .25s ease;
     overflow: hidden;
     padding: 0;
+    padding-top: 3rem;
 
     @include from($desktop) {
-      height: auto;
+      //height: auto;
       overflow:visible;
+      padding-top: 0rem;
     }
 
     &.is-active{
-      height: 252px;
+      //height: 252px;
       @include from($desktop) {height: auto;}
     }
 

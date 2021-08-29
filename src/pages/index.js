@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 
 import Layout from "components/Layout";
 import Seo from 'components/Seo';
-import ContactForm from 'components/ContactForm'
 import { StaticImage } from "gatsby-plugin-image"
 
 
